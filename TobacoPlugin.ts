@@ -76,6 +76,7 @@ export class TobacoComponent extends Parkmyst.Component<object, TobacoState> {
             }
         </style>
         
+        <script src="https://bernardo-castilho.github.io/DragDropTouch/DragDropTouch.js"> </script>
         <script>
             function allowDrop(event) {
                 event.preventDefault();
