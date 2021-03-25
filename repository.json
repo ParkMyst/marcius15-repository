@@ -1,0 +1,24 @@
+{
+  "$schema": "http://parkmyst.github.io/plugins/schemas/repository.schema.json",
+  "name": "March Repository",
+  "maintainer": {
+    "name": "HGergely",
+    "address": "gergely0703@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "TobacoPlugin",
+      "description": "This is a Tobaco filler plugin",
+      "library": "parkmyst-1.ts",
+      "path": "./TobacoPlugin.ts",
+      "version": "1.0.0"
+    },
+    {
+      "name": "MarchThemePlugin",
+      "description": "This is a theme container for March themes",
+      "library": "parkmyst-1.ts",
+      "path": "./MarchThemePlugin.ts",
+      "version": "0.0.1"
+    }
+  ]
+}
